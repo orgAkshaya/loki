@@ -14,7 +14,7 @@ public class yyy {
 		d.navigate().to("https://www.letskodeit.com/practice");
 		List<WebElement> k=d.findElements(By.xpath("//table[@class='dataTable']/thead/tr"));
 	
-	
+	System.out.println(k.size());
 	
 		
 		
